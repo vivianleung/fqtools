@@ -15,9 +15,9 @@
 #include <math.h>
 
 // Define the global variables:
-fqfsin f_in;
-fqfsout f_out;
-fqparser_callbacks callbacks;
+extern fqfsin f_in;
+extern fqfsout f_out;
+extern fqparser_callbacks callbacks;
 unsigned long int offsets[94];
 
 fqbytecount fqprocess_type_readBuffer(fqflag pair, char *b, fqbytecount b_size){

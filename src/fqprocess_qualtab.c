@@ -15,9 +15,9 @@
 #include <math.h>
 
 // Define the global variables:
-fqfsin f_in;
-fqparser_callbacks callbacks;
-fqbytecount counts[94];
+extern fqfsin f_in;
+extern fqparser_callbacks callbacks;
+extern fqbytecount counts[94];
 
 float fqcommand_qualtab_phred(char q){
 	return(powf((float)10, -((float)q / (float)10)));

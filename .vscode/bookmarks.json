@@ -1,0 +1,34 @@
+{
+	"files": [
+		{
+			"path": "src/fqparser.c",
+			"bookmarks": [
+				{
+					"line": 324,
+					"column": 28,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "src/fqtools.c",
+			"bookmarks": [
+				{
+					"line": 117,
+					"column": 7,
+					"label": "Remove options arg"
+				}
+			]
+		},
+		{
+			"path": "src/fqheader.h",
+			"bookmarks": [
+				{
+					"line": 97,
+					"column": 31,
+					"label": "Remove options arg"
+				}
+			]
+		}
+	]
+}

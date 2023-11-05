@@ -20,8 +20,8 @@ typedef struct {
 } base_count;
 
 // Define the global variables:
-fqfsin f_in;
-fqparser_callbacks callbacks;
+extern fqfsin f_in;
+extern fqparser_callbacks callbacks;
 base_count counts[57];
 
 //Function to compare two bases by count:

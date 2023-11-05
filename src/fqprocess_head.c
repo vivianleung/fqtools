@@ -14,10 +14,10 @@
 #include "fqheader.h"
 
 // Define the global variables:
-fqfsin f_in;
-fqfsout f_out;
-fqparser_callbacks callbacks;
-char interleaving_out;
+extern fqfsin f_in;
+extern fqfsout f_out;
+extern fqparser_callbacks callbacks;
+extern char interleaving_out;
 fqbytecount read_n;
 fqbytecount max_reads;
 

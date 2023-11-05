@@ -14,11 +14,12 @@
 #include "fqheader.h"
 
 // Define the global variables:
-fqfsin f_in;
-fqfsout f_out;
-fqparser_callbacks callbacks;
-char interleaving_out;
-fqbytecount line_length, current_line;
+extern fqfsin f_in;
+extern fqfsout f_out;
+extern fqparser_callbacks callbacks;
+extern char interleaving_out;
+extern fqbytecount line_length;
+extern fqbytecount current_line;
 
 fqbytecount fqprocess_fasta_readBuffer(fqflag pair, char *b, fqbytecount b_size){
     return fqfile_read(&(f_in.files[pair]->file), b, b_size);

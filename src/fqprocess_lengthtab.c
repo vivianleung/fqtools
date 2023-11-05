@@ -16,8 +16,8 @@
 #define LENGTH_BUFFER_SIZE 4096
 
 // Define the global variables:
-fqfsin f_in;
-fqparser_callbacks callbacks;
+extern fqfsin f_in;
+extern fqparser_callbacks callbacks;
 fqbytecount current_read_length, read_count, length_buffer_increment, length_buffer_size;
 fqbytecount *length_buffer;
 

@@ -14,8 +14,8 @@
 #include "fqheader.h"
 
 // Define the global variables:
-fqfsin f_in;
-fqparser_callbacks callbacks;
+extern fqfsin f_in;
+extern fqparser_callbacks callbacks;
 fqbuffer header1_1, header1_2, header2_1, header2_2;
 
 fqbytecount fqprocess_validate_readBuffer(fqflag pair, char *b, fqbytecount b_size){

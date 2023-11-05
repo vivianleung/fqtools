@@ -14,12 +14,12 @@
 #include "fqheader.h"
 
 // Define the global variables:
-fqfsin f_in;
-fqfsout f_out;
-fqparser_callbacks callbacks;
-char keep_headers;
-char **subjects = NULL;
-size_t subject_count = 0;
+extern fqfsin f_in;
+extern fqfsout f_out;
+extern fqparser_callbacks callbacks;
+extern char keep_headers;
+extern char **subjects = NULL;
+extern size_t subject_count = 0;
 fqbuffer header1, sequence, header2, quality;
 
 fqbytecount fqprocess_find_readBuffer(fqflag pair, char *b, fqbytecount b_size){

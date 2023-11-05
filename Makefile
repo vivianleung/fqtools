@@ -2,7 +2,7 @@ SRC=./src
 BIN=./bin
 HTSDIR=./htslib
 
-CFLAGS+=-O2 -g
+CFLAGS+=-O2 -g --verbose
 CPPFLAGS+=-Wall -Wextra -Wno-unused-parameter -I$(HTSDIR)
 LIBS=-lz -lhts -lm
 

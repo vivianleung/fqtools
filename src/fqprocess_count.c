@@ -14,9 +14,9 @@
 #include "fqheader.h"
 
 // Define the global variables:
-fqfsin f_in;
-fqparser_callbacks callbacks;
-fqbytecount n_reads;
+extern fqfsin f_in;
+extern fqparser_callbacks callbacks;
+extern fqbytecount n_reads;
 
 fqbytecount fqprocess_count_readBuffer(fqflag pair, char *b, fqbytecount b_size){
     return fqfile_read(&(f_in.files[pair]->file), b, b_size);
